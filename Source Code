@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+struct CareF{
+    double A;
+    double B;
+};
+class due{
+public:
+    CareF dude;
+    double Avarage;
+    
+    //Create a Class-Function
+    void aaaaaa(){
+    cin>>dude.A;
+    cin>>dude.B;
+    
+    Avarage=((dude.A*3.5)+(dude.B*7.5))/(3.5+7.5); //Just a Simple Math
+    cout<<dude.A<<endl;
+    cout<<dude.B<<endl;cout<<Avarage<<endl;
+    }
+};
+int main(){
+due obnj;
+//obnj.due();
+obnj.aaaaaa();
+}
+
+//Remember, this code will get errors in Uri
