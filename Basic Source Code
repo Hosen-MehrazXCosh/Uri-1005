@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    double A;
+    double B;
+    double Avarage;
+    cin>>A;
+    cin>>B;
+    Avarage=((A*3.5)+(B*7.5))/(3.5+7.5);
+    cout<<fixed<<setprecision(5)<<"MEDIA = "<<Avarage<<endl;
+}
